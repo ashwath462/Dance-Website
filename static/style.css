@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    
+}
+
+
+#navbar{
+    color: white;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    background-color:transparent;
+
+}
+#navbar li a:hover{
+    color: rgb(255, 166, 0);
+}
+
+#navbar li{
+    list-style: none;
+
+}
+
+
+#navbar li a{
+    font-family: 'WindSong', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 7px 11px;
+    margin: 10px 30px;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+/* Image logo */
+#navbar li img{
+    display: flex;
+    background-color: white;
+    background-blend-mode: darken;
+    margin-right: 0px;
+    filter: invert(1);
+    
+}
+
+
+
+#introSec{
+    font-family: 'WindSong', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #ffde39;
+    display: flex;
+    flex-direction: column;
+    margin-top: 83px;
+    /* justify-content: center; */
+    align-items: center;
+    top: 40px;
+    /* background: center / cover no-repeat url(bg.jpg);
+    background-blend-mode: multiply; */
+    font-size: 60px;
+    font-weight: bolder;
+    height: 100vh;
+    background-color: transparent;
+    
+}
+
+#introSec div{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 30px;
+    color: #00cece;
+    font-size: 31px
+}
+
+/* Mission */
+
+#missionSection {
+    height: 350px;
+    background-color: transparent;
+    
+}
+#missionSection h2{
+    text-align: center;
+}
+
+/* Card ki kahani */
+.card{
+    display: inline-block;
+    border: 2px solid rgb(130, 205, 209);
+    border-radius: 10px;
+    width: 27%;
+    margin: 22px 48px;
+    height: 237px;
+    background-color: rgb(231, 208, 208);
+    color: black;
+    opacity: 0.7;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card h3{
+    margin-top: 8px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.card-box{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 100px;
+    padding: 0px 14px;
+    
+}
+
+.card-img img{
+    height: inherit;
+}
+
+/* Sponsers */
+#sponsors{
+    height: 160px;
+    background-color: transparent;
+}
+#sponsors h2{
+    text-align: center;
+    margin-bottom: 18px;
+}
+/* Sponsers images */
+#sponsors div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Opa{
+    opacity: 0.9;
+}
+
+#sponsors div img{
+    margin: 0px 10px;
+}
+
+#footer{
+    height: 5vh;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+body{
+    background: no-repeat center url(bg.jpg);
+    background-size: 1600px 1900px;
+    /* background-size: cover; */
+    background-blend-mode: multiply;
+    background-color: #ffffff;
+}

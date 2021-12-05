@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts 
+    script(src = "../static/script.js")
+
+block style 
+    style 
+        include ../static/style.css
+
+block content
+            section#introSec
+                |Welcome to Ashwath's Dance Academy 
+                div  EAT 
+                div  SLEEP 
+                div  DANCE 
+                div  REPEAT
+            
+            section#missionSection 
+                h2 Our Mission 
+                div.card 
+                    h3 Learn  
+                    div.card-box
+                        div.card-img 
+                            img(src="c1.gif", alt="alt...")
+                        div.content
+                            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi molestiae provident, aut sapiente perspiciatis similique ea mollitia vitae laboriosam molestias eius eos ipsum excepturi aliquid explicabo! Magnam quas impedit ratione.
+                div.card 
+                    h3 Practice
+                    div.card-box
+                        div.card-img 
+                            img(src="c2.gif", alt="alt...")
+                        div.content 
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam non, quisquam deserunt doloribus earum totam vel ipsum? Perferendis distinctio sapiente quaerat, ut tempore neque et quas facere similique autem quisquam.
+                div.card 
+                    h3 Impress
+                    div.card-box
+                        div.card-img 
+                            img(src="c3.jpg", alt="alt...")
+                        div.content
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam non, quisquam deserunt doloribus earum totam vel ipsum? Perferendis distinctio sapiente quaerat, ut tempore neque et quas facere similique autem quisquam. 
+            
+
+            
